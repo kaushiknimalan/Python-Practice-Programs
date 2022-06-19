@@ -1,0 +1,111 @@
+Ch : 3 :Python basics
+
+Mathematical functions in math module:
+pi, e # values of constants pi and e
+sqrt(x) # square root of x
+factorial(x) # factorial of x
+fabs(x) # absolute value of float x
+log(x) # natural log of x (log to the base e)
+log10(x) # base-10 logarithm of x
+exp(x) # e raised to x
+trunc(x) # truncate to integer
+ceil(x) # smallest integer >= x
+floor(x) # largest integer <= x
+modf(x) # fractional and integer parts of
+
+
+Trigonometric functions in math module:
+degrees(x) # radians to degrees
+radians(x) # degrees to radians
+sin(x) # sine of x radians
+cos(x) # cosine of x radians
+tan(x) # tan of x radians
+sinh(x) # hyperbolic sine of x
+cosh(x) # hyperbolic cosine of x
+tanh(x) # hyperbolic tan of x
+acos(x) # cosinverse of x, in radians
+asin(x) # sine inverse of x, in radians
+atan(x) # tan inverse of x, in radians
+hypot(x, y)
+sqrt(x * x + y * y)
+
+pi = 3.141592653589793 , e = 2.718281828459045
+-----------------------------------------------------------------------------------------------------------------------
+
+Ch : 4 : Python Strings
+
+Different categories of string methods are given below.
+
+content test functions
+
+isalpha( ) - checks if all characters in string are alphabets.
+isdigit( ) - checks if all characters in string are digits.
+isalnum( ) - checks if all characters in string are alphabets or digits.
+islower( ) - checks if all characters in string are lowercase alphabets.
+isupper( ) - checks if all characters in string are uppercase alphabets.
+startswith( ) - checks if string starts with a value.
+endswith( ) - checks if string ends with a value.
+
+search and replace
+
+find( ) - searches for a value, returns its position.
+replace( ) - replace one value with another.
+
+trims whitespace
+
+lstrip( ) - removes whitespace from the left of string including \t.
+rstrip( ) - removes whitespace from the right of string including \t.
+strip( ) - removes whitespace from left and right
+split and partition
+split( ) - split the string at a specified separator string.
+partition( ) - partitions string into 3 parts at first occurrence of
+specified string.
+
+join - different than concatenation
+
+It joins string to each element of string1 except last.
+join(string1)
+
+Case conversions can be done using str methods:
+
+upper( ) - converts string to uppercase.
+lower( ) - converts string to uppercase.
+capitalize( ) - converts first character of string to uppercase.
+title( ) - converts first character of each word to uppercase.
+swapcase( ) - swap cases in the string.
+
+String comparison:
+
+s1 = "Bombay"
+s2 = "bombay"
+s3 = "Nagpur"
+s4 = "Bombaywala"
+s5 = "Bombay"
+print(s1 == s2) # displays False
+print(s1 == s5) # displays True
+print(s1 != s3) # displays True
+print(s1 > s5) # displays False
+print(s1 < s2) # displays True
+print(s1 <= s4) # displays True
+
+Distance formula of a circle:
+        m = maths module
+        distance = m.sqrt((x_2 - x_1)**2 + (y_2 - y_1)**2)
+
+In point (x, y), if x = 0 and y = 0, then the point lies on the origin.
+If value of x is zero and y is greater than zero,
+then the point lies on y-axis.
+If y is zero and x is greater than zero,
+then the point lies on x-axis.
+
+How do you check if a triangle is isosceles or not?
+
+Isosceles Triangle: A triangle is said to be an isosceles triangle if any of its two sides are equal.
+
+How do you know if a triangle is an equilateral?
+
+In geometry, an equilateral triangle is a triangle in which all three sides have the same length.
+
+How do you identify a scalene triangle?
+
+All the scalene triangle's sides are unequal.e.
