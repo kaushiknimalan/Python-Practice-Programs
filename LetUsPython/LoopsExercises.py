@@ -31,4 +31,27 @@ def number_reversed_repetition(number):
         print("Both numbers are not same.")
 
 
-number_reversed_repetition(1001)
+def factorial(number):
+    i = 1
+    ans = 1
+    while i <= number:
+        ans *= i
+        i += 1
+    print(ans)
+
+def armstrong(till):
+    ans = 0
+    i_ = 0
+    while i_ < till:
+        for i in str(i_):
+            i_in = int(i)
+            ans += pow(i_in, 3)
+
+        if ans == int(i_):
+            print(ans)
+        ans = 0
+        i_ += 1
+
+
+
+armstrong(10000)
